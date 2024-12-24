@@ -1,0 +1,23 @@
+[
+    {
+        "id": "mountain",
+        "name": "mountain bike",
+        "description": "ideal for rough terrain.",
+        "image": "images/mountainBike.jpg",
+        "pricePerHour": 12
+    },
+    {
+        "id": "road",
+        "name": "road bike",
+        "description": "for fast driving on asphalt.",
+        "image": "images/roadBike.jpg",
+        "pricePerHour": 10
+    },
+    {
+        "id": "city",
+        "name": "city bike",
+        "description": "for traveling around the city.",
+        "image": "images/cityBike.jpg",
+        "pricePerHour": 6
+    }
+]

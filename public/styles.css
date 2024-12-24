@@ -1,0 +1,60 @@
+body {
+	font-family: Arial, sans-serif;
+    display: grid;
+    place-items: center;    /* Центрируем элементы по вертикали и горизонтали */
+    height: 100vh;          /* Занимаем всю высоту экрана */
+    margin: 0;              /* Убираем отступы по умолчанию */
+	background-color: #f0f0f0; /* Светлый фон */
+}
+
+header {
+    text-align: center;     /* Центрируем текст внутри заголовка */
+}
+
+nav ul {
+    list-style-type: none;  /* Убираем маркеры списка */
+    padding: 0;             /* Убираем отступы */
+    display: grid;          /* Используем grid для меню */
+    grid-auto-flow: column; /* Располагаем элементы в строку */
+    justify-content: center; /* Центрируем элементы меню */
+}
+
+nav ul li {
+    margin: 0 15px;        /* Добавляем отступы между элементами меню */
+}
+
+a {
+    text-decoration: none;  /* Убираем подчеркивание у ссылок */
+    color: blue;            /* Устанавливаем цвет текста */
+}
+
+#bikes-container {
+    display: flex;
+    flex-wrap: wrap; /* Позволяет карточкам переноситься на новую строку */
+    gap: 20px; /* Отступ между карточками */
+    justify-content: center; /* Центрирует карточки по горизонтали */
+}
+
+.bike {
+    width: 200px; /* Ширина карточки */
+    height: 220px; /* Высота карточки */
+    border: 1px solid #ccc; /* Рамка вокруг карточки */
+    border-radius: 8px; /* Закругление углов */
+    overflow: hidden; /* Скрывает содержимое, выходящее за пределы карточки */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тень для эффекта поднятия */
+    display: flex;
+    flex-direction: column; /* Вертикальное расположение элементов внутри карточки */
+    align-items: center; /* Центрирует содержимое по горизонтали */
+    padding: 10px; /* Внутренний отступ */
+    transition: transform 0.2s; /* Плавный эффект при наведении */
+	background-color: #ffffff; /* Светлый фон */
+}
+
+.bike:hover {
+    transform: scale(1.05); /* Увеличивает карточку при наведении */
+}
+
+.bike img {
+    max-width: 100px;
+    height: auto;
+}
