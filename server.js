@@ -101,10 +101,10 @@ app.get('/activate/:bikeId', (req, res) => {
 				display: flex;
 				justify-content: center;
 				align-items: center;
-				height: 100vh; /* Высота на весь экран */
+				height: 100vh;
 				margin: 0;
-				font-family: Arial, sans-serif; /* Шрифт Arial */
-				background-color: #f0f0f0; /* Светлый фон */
+				font-family: Arial, sans-serif;
+				background-color: #f0f0f0;
 			}
 			</style>
         </head>
